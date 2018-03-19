@@ -4,7 +4,8 @@ We all have faced problems dealing with uncertainty with *Coding Interviews*. Ba
 
 * **Question 1**: Write a program to print **fibonacci sequence**
 **Answer**: 
-    Fibonacci sequences is `1 1 2 3 5 8 13 21 ..`. it is always addition of previous `2` values  
+
+    Fibonacci sequences is `1 1 2 3 5 8 13 21 ...` It is always addition of previous `2` values  
     **Formula:**  `Xn = Xn-1 + Xn-2`  
      - Using [for loop](https://wiki.python.org/moin/ForLoop), here is the code: [fib.py](python/fib.py)   
 
