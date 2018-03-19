@@ -2,7 +2,7 @@
 
 We all have faced problems dealing with uncertainty with *Coding Interviews*. Based on my experiences and Interviews I faced, I am trying to put together a repo with **Questions**, **Answer** and if possible the `code` as well
 
-* **Question 1**: Write a program to print **fibonacci sequence**
+* **Question 1**: Write a program to print **fibonacci sequence**  
 **Answer**: 
 
     Fibonacci sequences is `1 1 2 3 5 8 13 21 ...` It is always addition of previous `2` values  
