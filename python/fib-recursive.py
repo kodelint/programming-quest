@@ -1,5 +1,6 @@
 number = 30
 def fib(number):
+    """ will print the fibonacci sequence using recursion """
     if number == 0:
         return 1
     elif number == 1:
