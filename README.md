@@ -12,7 +12,8 @@ We all have faced problems dealing with uncertainty with *Coding Interviews*. Ba
      | Language       | Script Name  | 
      | ------------- |:-------------:|
      | bash      | [fib.sh](bash/fib.sh) |
-     | python      | [fib.py](python/fib.py)|  
+     | python      | [fib.py](python/fib.py)|
+     | go      | [fib.go](golang/fib.go)|  
 
             sh bash/fib.sh
             Fibonacci Sequence from 0 to 10
@@ -23,6 +24,9 @@ We all have faced problems dealing with uncertainty with *Coding Interviews*. Ba
             python python/fib.py
             Fibonacci Sequence from 0 to 10
             ===============================
+            0 1 1 2 3 5 8 13 21 34
+
+            go run fib.go
             0 1 1 2 3 5 8 13 21 34
 
      
