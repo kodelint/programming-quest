@@ -1,23 +1,18 @@
 package main
-
 import "fmt"
-import "strconv"
-
-func fib(n int) int {
-	f := make([]int, n+1, n+2)
-	if n < 2 {
-		f = f[0:2]
-	}
-	f[0] = 0
-	f[1] = 1
-	for i := 2; i <= n; i++ {
-		f[i] = f[i-1] + f[i-2]
-	}
-	return f[n]
+// fib returns a function that returns
+// successive Fibonacci numbers.
+func fib() func() int {
+  a, b := 0, 1
+  return func() int {
+    a, b = b, a+b
+    return a
+  }
 }
-
 func main() {
-	for i := 0; i <= 9; i++ {
-		fmt.Print(strconv.Itoa(fib(i)) + " ")
-	}
+  f := fib()
+  // Function calls are evaluated left-to-right.
+  for i := 0; i <= 10; i++ {
+    fmt.Println(f())
+  }
 }
