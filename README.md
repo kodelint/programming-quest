@@ -11,9 +11,9 @@ We all have faced problems dealing with uncertainty with *Coding Interviews*. Ba
     
      | Language       | Script Name  | 
      | ------------- |:-------------:|
-     | bash      | [fib.sh](bash/fib.sh) |
-     | python      | [fib.py](python/fib.py)|
-     | go      | [fib.go](golang/fib.go)|  
+     | `bash`      | [fib.sh](bash/fib.sh) |
+     | `python`      | [fib.py](python/fib.py)|
+     | `golang`      | [fib.go](golang/fib.go)|  
 
             sh bash/fib.sh
             Fibonacci Sequence from 0 to 10
@@ -35,9 +35,24 @@ We all have faced problems dealing with uncertainty with *Coding Interviews*. Ba
    
      | Language       | Script Name  | 
      | ------------- |:-------------:|
-     | python      | [fib-recursive.py](python/fib-recursive.py)|   
+     | `python`      | [fib-recursive.py](python/fib-recursive.py)| 
+     | `golang`      | [fib-recursive.go](golang/fib-recursive.go)|   
 
             python python/fib-recursive.py
             Fibonacci Sequence from 0 to 30
             ======================================
             1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, 514229, 832040
+
+
+            go run golang/fib-recursive.go
+            Fibonacci Sequence from 0 to 10
+            ================================
+            0
+            1
+            1
+            2
+            3
+            5
+            8
+            13
+            21
