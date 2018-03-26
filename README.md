@@ -56,3 +56,18 @@ We all have faced problems dealing with uncertainty with *Coding Interviews*. Ba
             8
             13
             21
+
+* **Question 1**: Write a program to print **Unique Words and Count** from given file without the punctuations  
+**Answer**: 
+     We will use `tr -d '[:punct:]'` to remove the punctuations
+ 
+   - Using [tr](https://en.wikipedia.org/wiki/Tr_(Unix))
+    
+     | Language       | Script Name  | 
+     | ------------- |:-------------:|
+     | `bash`      | [count-uniq.sh](bash/count-uniq.sh) |
+
+            sh count-uniq.sh test-data.txt 3
+            6 the
+            6 dns
+            5 to
