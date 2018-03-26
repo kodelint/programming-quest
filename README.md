@@ -57,7 +57,7 @@ We all have faced problems dealing with uncertainty with *Coding Interviews*. Ba
             13
             21
 
-* **Question 1**: Write a program to print **Unique Words and Count** from given file without the punctuations  
+* **Question 2**: Write a program to print **Unique Words and Count** from given file without the punctuations  
 **Answer**: 
      We will use `tr -d '[:punct:]'` to remove the punctuations
  
