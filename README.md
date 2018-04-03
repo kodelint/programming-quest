@@ -1,6 +1,6 @@
 ### Coding Interview hmm..
 
-We all have faced problems dealing with uncertainty with *Coding Interviews*. Based on my experiences and Interviews I faced, I am trying to put together a repo with **Questions**, **Answer** and if possible the `code` as well
+**Interviewing** is a skill that you can get better at by studying, preparing, and practicing for it. It’s stressful to code in an interview, while someone scrutinizes every liine of code you write. Based on my experiences and Interviews I faced, I am sharing the insights and tips I gained  over the time. I will try to be as discriptive as possible with **Questions**, **Answers** and if possible the `code` as well
 
 * **Question 1**: Write a program to print **fibonacci sequence**  
 **Answer**: 
