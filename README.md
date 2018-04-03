@@ -61,13 +61,24 @@ We all have faced problems dealing with uncertainty with *Coding Interviews*. Ba
 **Answer**: 
      We will use `tr -d '[:punct:]'` to remove the punctuations
  
-   - Using [tr](https://en.wikipedia.org/wiki/Tr_(Unix))
+   - Using [tr](https://en.wikipedia.org/wiki/Tr_(Unix)) for `bash`
+   - Uning [Counter](https://docs.python.org/2/library/collections.html) and [String](https://docs.python.org/2/library/string.html) for `python`
     
      | Language       | Script Name  | 
      | ------------- |:-------------:|
      | `bash`      | [count-uniq.sh](bash/count-uniq.sh) |
+     | `python`      | [count-uniq.py](python/count-uniq.py) |
 
             sh count-uniq.sh test-data.txt 3
-            6 the
-            6 dns
-            5 to
+            17 the
+            14 data
+            10 we
+            9 of
+            7 to
+
+            python count-uniq.py
+            the: 17
+            data: 14
+            we: 10
+            of: 9
+            to: 7
