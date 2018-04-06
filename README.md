@@ -68,17 +68,29 @@
      | ------------- |:-------------:|
      | `bash`      | [count-uniq.sh](bash/count-uniq.sh) |
      | `python`      | [count-uniq.py](python/count-uniq.py) |
+     | `golang`      | [count-uniq.go](golang/count-uniq.go) |
 
-            sh count-uniq.sh test-data.txt 3
+            >> sh count-uniq.sh test-data.txt 3
             17 the
             14 data
             10 we
             9 of
             7 to
 
-            python count-uniq.py
+            >> python count-uniq.py
             the: 17
             data: 14
             we: 10
             of: 9
             to: 7
+
+            >> go run count-uniq.go data.txt
+            getting => 1
+            production => 1
+            me => 3
+            online_inventory => 1
+            store_bops_eligibility => 1
+            We => 3
+            loads => 1
+            assumed => 1
+            job => 2
