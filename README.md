@@ -63,7 +63,7 @@
  
    - Using [tr](https://en.wikipedia.org/wiki/Tr_(Unix)) for `bash`
    - Using [Counter](https://docs.python.org/2/library/collections.html) and [String](https://docs.python.org/2/library/string.html) for `python`
-   - Using [io/ioutil](https://golang.org/pkg/io/ioutil/) to **ReadFile** and [Strings](https://golang.org/pkg/strings/) to convert `[]byte` to `[]string` at [Line 29](https://github.com/kodelint/programming-quest/blob/66ad9d5117c3fd3244ded9563635d8b807ea8e8c/golang/count-uniq.go#L29) and Replace punctuations
+   - Using [io/ioutil](https://golang.org/pkg/io/ioutil/) to **ReadFile** and [Strings](https://golang.org/pkg/strings/) to convert `[]byte` to `[]string` at [Line 29](https://github.com/kodelint/programming-quest/blob/66ad9d5117c3fd3244ded9563635d8b807ea8e8c/golang/count-uniq.go#L29) and Replace punctuations for `golang`
     
      | Language       | Script Name  | 
      | ------------- |:-------------:|
