@@ -137,9 +137,19 @@
    
      | Language       | Script Name  | 
      | ------------- |:-------------:|
-     | `bash`      | [fizzbuzz-recursive.sh](bash/fizzbuzz-recursive.sh)| 
+     | `bash`      | [fizzbuzz-recursive.sh](bash/fizzbuzz-recursive.sh)|
+     | `golang`      | [fizzbuzz-recursive.go](golang/fizzbuzz-recursive.go)|  
 
             >> sh fizzbuzz-recursive.sh 15
+            Number: 15 is fizzbuzz
+            Number: 12 is fizz
+            Number: 10 is buzz
+            Number: 9 is fizz
+            Number: 6 is fizz
+            Number: 5 is buzz
+            Number: 3 is fizz
+
+            >> go run fizzbuzz-recursive.go 15
             Number: 15 is fizzbuzz
             Number: 12 is fizz
             Number: 10 is buzz
