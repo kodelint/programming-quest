@@ -104,6 +104,7 @@
      | ------------- |:-------------:|
      | `bash`      | [fizzbuzz.sh](bash/fizzbuzz.sh) |
      | `python`      | [fizzbuzz.py](python/fizzbuzz.py) |
+     | `golang`      | [fizzbuzz.go](golang/fizzbuzz.go) |  
 
             >> sh bash/fizzbuzz.sh 15
             Number: 3 is fizz
@@ -122,6 +123,15 @@
             number:  10 is buzz
             number:  12 is fizz
             number:  15 is fizzbuzz  
+
+            >> go run fizzbuzz.go 15
+            Number: 3 is fizz
+            Number: 5 is buzz
+            Number: 6 is fizz
+            Number: 9 is fizz
+            Number: 10 is buzz
+            Number: 12 is fizz
+            Number: 15 is fizzbuzz
             
    - Using [Recursion](https://bash.cyberciti.biz/guide/Recursive_function)
    
