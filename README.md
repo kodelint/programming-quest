@@ -96,7 +96,7 @@
             assumed => 1
             job => 2
 
-* **Question 3**: Write a program to print **fizzbuzz** if **number** is divisable by `15`, prints **fizz** divisable by `3` and **buzz** if divisable by `15`  
+* **Question 3**: Write a program to print **fizzbuzz** if **number** is divisible by `15`, prints **fizz** divisible by `3` and **buzz** if divisible by `15`  
 **Answer**: 
 
     
