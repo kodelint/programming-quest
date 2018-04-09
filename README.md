@@ -102,8 +102,18 @@
     
      | Language       | Script Name  | 
      | ------------- |:-------------:|
+     | `bash`      | [fizzbuzz.sh](bash/fizzbuzz.sh) |
      | `python`      | [fizzbuzz.py](python/fizzbuzz.py) |
 
+            >> sh bash/fizzbuzz.sh 15
+            Number: 3 is fizz
+            Number: 5 is buzz
+            Number: 6 is fizz
+            Number: 9 is fizz
+            Number: 10 is buzz
+            Number: 12 is fizz
+            Number: 15 is fizzbuzz
+            
             >> python python/fizzbuzz.py
             number:  1 is SKIPPED
             number:  2 is SKIPPED
