@@ -95,3 +95,28 @@
             loads => 1
             assumed => 1
             job => 2
+
+* **Question 3**: Write a program to print **fizzbuzz** if **number** is divisable by `15`, prints **fizz** divisable by `3` and **buzz** if divisable by `51
+**Answer**: 
+
+    
+     | Language       | Script Name  | 
+     | ------------- |:-------------:|
+     | `python`      | [fizzbuzz.py](python/fizzbuzz.py) |
+
+            >> python python/fizzbuzz.py
+            number:  1 is SKIPPED
+            number:  2 is SKIPPED
+            number:  3 is fizz
+            number:  4 is SKIPPED
+            number:  5 is buzz
+            number:  6 is fizz
+            number:  7 is SKIPPED
+            number:  8 is SKIPPED
+            number:  9 is fizz
+            number:  10 is buzz
+            number:  11 is SKIPPED
+            number:  12 is fizz
+            number:  13 is SKIPPED
+            number:  14 is SKIPPED
+            number:  15 is fizzbuzz
