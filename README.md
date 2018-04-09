@@ -115,21 +115,14 @@
             Number: 15 is fizzbuzz
             
             >> python python/fizzbuzz.py
-            number:  1 is SKIPPED
-            number:  2 is SKIPPED
             number:  3 is fizz
-            number:  4 is SKIPPED
             number:  5 is buzz
             number:  6 is fizz
-            number:  7 is SKIPPED
-            number:  8 is SKIPPED
             number:  9 is fizz
             number:  10 is buzz
-            number:  11 is SKIPPED
             number:  12 is fizz
-            number:  13 is SKIPPED
-            number:  14 is SKIPPED
-            number:  15 is fizzbuzz
+            number:  15 is fizzbuzz  
+            
    - Using [Recursion](https://bash.cyberciti.biz/guide/Recursive_function)
    
      | Language       | Script Name  | 

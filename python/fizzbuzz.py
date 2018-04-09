@@ -6,7 +6,5 @@ def fizzbuzz(seq):
             print "number: ", number, "is fizz"
         elif number % 5 == 0:
             print "number: ", number, "is buzz"
-        else:
-            print "number: ", number, "is SKIPPED"
 
-fizzbuzz(100)
+fizzbuzz(16)
