@@ -96,7 +96,28 @@
             assumed => 1
             job => 2
 
-* **Question 3**: Write a program to print **fizzbuzz** if **number** is divisible by `15`, prints **fizz** divisible by `3` and **buzz** if divisible by `15`  
+* **Question 3**: Write a program to check if given string is **Palindrom**   
+**Answer**: 
+
+   - Using [rune](https://godoc.org/golang.org/x/text/runes) for `golang` 
+    
+     | Language       | Script Name  | 
+     | ------------- |:-------------:|
+     | `python`      | [palindrome.py](python/palindrome.py) |
+     | `golang`      | [palindrome.go](golang/palindrome.go) |  
+
+            >> python palindrom.py madam
+            madam is palindrom
+            >> python palindrom.py foobaar
+            foobaar is not palindrom
+
+            >> go run palindrom.go madman
+            Given String: madman is not palindrom
+            >> go run palindrom.go madam
+            Given String: madam is palindrom
+
+
+* **Question 4**: Write a program to print **fizzbuzz** if **number** is divisible by `15`, prints **fizz** divisible by `3` and **buzz** if divisible by `15`  
 **Answer**: 
 
     
