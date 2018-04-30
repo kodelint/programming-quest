@@ -188,3 +188,27 @@
             Number: 6 is fizz
             Number: 5 is buzz
             Number: 3 is fizz
+
+* **Question 5**: Write a program to compare `Phone Numbers` from `2` different `csv` files and generate records, sample files and expected records example given below:  
+
+      > cat first.csv
+      Sam,111222333,77878 Gkaall Way
+      Ray,2223334444,77878 toorojd Way
+      Will,111222333,77878 Gkaall Gundtom
+
+      > cat last.csv
+      Roy,10000,111222333
+      Bhal,5000,2223334444
+      Nahal,7000,111222333
+      Pari,5000,5567778888
+
+      > output
+      {Sam Roy 111222333 77878 Gkaall Way 10000}
+      {Will Nahal 111222333 77878 Gkaall Gundtom 7000}
+
+**Answer**: 
+   - Using [encoding/csv](https://golang.org/pkg/encoding/csv/)
+
+        | Language       | Script Name  | 
+        | ------------- |:-------------:|
+        | `golang`      | [csv-io.go](golang/csv-io.go) |  
