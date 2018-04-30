@@ -218,3 +218,7 @@
       | Language       | Script Name  | 
       | ------------- |:-------------:|
       | `golang`      | [csv-io.go](golang/csv-io.go) |  
+
+            >> go run csv-io.go file1.csv file2.csv
+            {Sam Roy 111222333 77878 Gkaall Way 10000}
+            {Will Nahal 111222333 77878 Gkaall Gundtom 7000}

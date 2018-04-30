@@ -33,7 +33,6 @@ func populateRecords(f1 [][]string, f2 [][]string) []record {
 	}
 
 func main() {
-	fmt.Println(len(os.Args))
 	if len(os.Args) < 3 || len(os.Args) > 3 {
 		fmt.Println("Please provide 2 filename")
 		os.Exit(1)
