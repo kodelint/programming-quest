@@ -7,4 +7,4 @@ def fib(number):
         print a,
         a, b = b, a + b
 
-    fib(10)
+fib(10)
