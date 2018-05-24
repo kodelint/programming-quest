@@ -1,5 +1,6 @@
 import sys
 
+
 def fizzbuzz(seq):
     for number in range(1, seq):
         if number % 15 == 0:

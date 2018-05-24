@@ -1,5 +1,6 @@
 import sys
 
+
 def fizzbuzz(number):
     if number < 3:
         sys.exit(0)

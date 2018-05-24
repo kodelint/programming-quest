@@ -1,5 +1,6 @@
 import sys
 
+
 def is_palindrom(text):
     rev_text = text[::-1]
     if text == rev_text:

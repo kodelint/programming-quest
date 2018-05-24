@@ -1,4 +1,6 @@
 number = 30
+
+
 def fib(number):
     """ will print the fibonacci sequence using recursion """
     if number == 0:
@@ -11,7 +13,7 @@ def fib(number):
         return fib(number - 1) + fib(number - 2)
 
 
-print("Fibonacci Sequence from 0 to", number) ## For formatting
+print("Fibonacci Sequence from 0 to", number) # For formatting
 print("======================================")
-for n in range(0,number):
-    print(fib(n), end=', ')
+for n in range(0, number):
+    print fib(n),  # Used ',' to print output vertical.
